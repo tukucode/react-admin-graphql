@@ -5,6 +5,7 @@ import buildQuery from "./graphql/buildQuery";
 // import { __schema as schema } from "./graphql/schema.json";
 import Planet from "./components/planet";
 
+// https://github.com/Firosmalik000/admin3
 const App = () => {
   const [dataProvider, setDataProvider] = useState<DataProvider>();
   useEffect(() => {
